@@ -101,6 +101,11 @@ body{
     margin-top: -16px;
 }
 
+.top__p2 a{
+    text-decoration: none;
+    color: #262626;
+}
+
 .top__info2{
     margin-top: 10px;
 }
