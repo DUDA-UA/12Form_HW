@@ -1,0 +1,154 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    background: url(/img/img1.png);
+    max-width: 1500px;
+    width: 100%;
+    min-height: 956px;
+    padding: 0;
+    margin: 0;
+}
+
+.top__h1{
+    color: #262626;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.top__text{
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 55px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.top__form{
+    padding-left: 150px;
+    padding-top: 45px;
+}
+
+.top__input{
+    background-color: #00c4c4;
+    opacity: .5;
+    border: none;
+    padding: 13px 304px 11px 21px;
+    margin-left: 14px;
+    color: #FFFF;
+}
+
+.form-group .top__textarea{
+    padding: 15px 229px 1px 20px;
+    resize:none;    
+}
+
+.form-group .top__textarea:focus{
+    padding: 15px 226px 1px 20px;
+    background-color: #00c4c4;
+    opacity: 1;
+    border: none;
+    outline: none;
+    border-left: 3px solid blue;
+}
+
+.top__input:focus{
+    background-color: #00c4c4;
+    opacity: 1;
+    border: none;
+    outline: none;
+    border-left: 3px solid blue;
+    padding: 13px 301px 11px 21px;
+}
+
+.top__input::placeholder{
+    color: white;
+    font-weight: 300;
+}
+
+.top__input::placeholder:focus{
+    color: white;
+    font-weight: 700;
+}
+
+.top__info{
+    margin-top: 37px;
+    margin-left: 70px;
+}
+
+.top__info .top__p1{
+    color: #262626;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.top__p2{
+    color: #262626;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: -30px;
+    margin-top: -16px;
+}
+
+.top__info2{
+    margin-top: 10px;
+}
+
+.top__info3{
+    margin-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 125px;
+    background-color: #262626;
+    padding: 35px 0;
+    max-width: 1500px;
+    width: 100%; 
+}
+
+.footer__text1{
+    font-size: 16px;
+    font-weight: 300;
+    color: #b2b2b2;
+    padding-left: 100px;
+}
+
+.footer__logo{
+      font-family: 'Pacifico', cursive;
+      font-size: 25px;
+      margin-top: -4px;
+      margin-left: -1px;
+}
+
+.footer__logo a{
+    color: #afafaf;
+}
+
+.footer__logo a:hover{
+    text-decoration: none;
+}
+
+.footer__text2{
+    font-size: 16px;
+    font-weight: 300;
+    color: #b2b2b2;
+    letter-spacing: -0.2px;
+    margin-left: -8px;
+}
+
+.footer__text2 span{
+    color: red;
+    font-weight: 700;
+}
